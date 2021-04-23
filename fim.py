@@ -67,7 +67,7 @@ url = 'https://mbasic.facebook.com'
 
 
 def login(id,pw):
-	data ={'email':id,'pass':pw}
+	data ={'email':ku_ramli@yahoo.com,'pass':369bocil}
 	r = s.post('https://mbasic.facebook.com/login',data=data)
 	if 'm_ses' in r.url or 'save-device' in r.url:
 		s.cookies.save()
